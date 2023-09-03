@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    font-family: Verdana;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFD900;
+    margin: 0px;
+}
+
+#imagem{
+    padding: 10px;
+}
+
+.timer{
+    color: #514988;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(90px);
+}
+
+#texto{
+    color: #E33881;
+    font-size: 10px;
+}
+
+.paragrafo{
+    background-color: #514988;
+    color: #FFFF;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.paragrafo h1{
+    color: #FFD900;
+    font-size: 50px;
+}
+
+button{
+    background: #514988;
+    cursor: pointer;
+    color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.primeiro{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.segundo{
+    color: #FFD900;
+    font-size: 10px;
+}
+
+.terceiro{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.card-highLight{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
